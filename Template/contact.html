@@ -1,0 +1,95 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog post</title>
+		<script type="text/javascript">
+	function myFunction() {
+  document.getElementById("blockk").style.display = "block";
+}
+	function nonee() {
+  document.getElementById("blockk").style.display = "none";
+}
+</script>
+	<style type="text/css">
+body{background: url('ba.jpg');background-size: cover;}
+	
+
+		#blockk, .sett img{
+			padding-top: 18px;
+  padding-left: 95%;
+  width: 30px;
+  height: 30px;
+}
+
+#blockk{position: absolute;left: 70%;
+	padding: 100px;
+	width: 200px;
+	height: 300px;
+	background-color: rgba(0, 0, 0, 0.9); 
+}
+#blockk img{border-radius: 50px;width: 100px;height: 100px;}
+#blockk ul li{list-style: none;}
+#blockk ul li a{text-decoration: none;color: white;}
+#blockk {
+  display: none;
+}
+.logi img{position: absolute;top: 10px;padding: 20px;}
+		.head{display: inline;}
+		
+		.head ul {display: inline;position: absolute;top: 10px;left: 77%;}
+		.head ul li{list-style: none;display: inline;padding-left: 10px;}
+		.head ul li a{color: black;text-decoration: none;font-size: 20px;}
+		.head ul li a:hover{color: green;}
+		.head ul li img{border-radius: 50px;width: 30px;position: absolute;
+			top: 3px;}
+		form{position: absolute;top: 100px;left: 150px;}
+		form b{font-size: 50px;color: white;}
+		form input{padding: 10px;border-radius: 30px;border: none;}
+		textarea{padding: 10px;border-radius: 30px;}
+		button{background: #4f9d95;border: none;width: 80px;height: 30px;border-radius: 30px;}
+	
+
+	</style>
+</head>
+<body>
+	<div class="logi">
+	<img src="1.png">
+		
+	</div>
+<div class="head">
+	
+	<ul>
+		<li><a href="Template.html">home</a></li><li></li>&nbsp;<li><a href="#">contact</a></li> <a href="profi.html"><li><img src="keza.png" class="2"></li></a>
+	</ul>
+</div>
+<form>
+	<b>Contact us</b><br><br>
+	<input type="text" name="name" placeholder="fullname"><br><br>
+	<input type="Email" name="mail" placeholder="Email"><br><br>
+	<input type="text" name="phn" placeholder="phone"><br><br>
+	<input type="text" name="name" placeholder="subject"><br><br>
+	<textarea placeholder="message"></textarea><br><br>
+	<button ><a href="Template.html">Submit</a></button>
+</form>
+<div class="sett" onclick="myFunction()"><img src="set.png"></div>
+<div id="blockk">
+<img src="Keza.png"><h1 style="color: white;">Keza Bwiza</h1><br>
+<ul >
+<li onclick="nonee()"><a href="#"><h2>User (12)</h2></a></li>
+
+<li><a href="#" onclick="nonee()"><h2>Notification (5)</h2></a></li>
+
+<li><a href="#" onclick="nonee()"><h2>Post (8)</h2></a></li>
+
+<li><a href="Template.html" ><h2>logout</h2></a></li>
+</ul>
+</div>
+</body>
+</html>
